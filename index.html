@@ -1,8 +1,7 @@
-
-
-
-  
-  
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
   <title>Sensibilisation à l’hameçonnage - Simulation et Analyse</title>
   <style>
     body {
@@ -27,7 +26,8 @@
       margin-bottom: 30px;
     }
     .logo img {
-      max-height: 80px;
+      width: 400px;
+      height: auto;
     }
     h1, h2, h3 {
       color: #1d4ed8;
@@ -78,44 +78,10 @@
     .footer strong {
       color: #1d4ed8;
     }
-    /* FadeIn animation */
     @keyframes fadeIn {
       from {opacity: 0; transform: translateY(20px);}
       to {opacity: 1; transform: translateY(0);}
     }
-    /* Form styling */
-    form {
-      margin-top: 20px;
-    }
-    input[type=email], input[type=password] {
-      width: 100%;
-      padding: 10px;
-      margin-top: 8px;
-      border: 1px solid #bbb;
-      border-radius: 6px;
-      font-size: 1em;
-      box-sizing: border-box;
-      transition: border-color 0.3s;
-    }
-    input[type=email]:focus, input[type=password]:focus {
-      border-color: #1d4ed8;
-      outline: none;
-    }
-    button {
-      margin-top: 15px;
-      background-color: #1d4ed8;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 8px;
-      font-size: 1em;
-      cursor: pointer;
-      transition: background-color 0.3s;
-    }
-    button:hover {
-      background-color: #2563eb;
-    }
-    /* Image containers */
     .image-block {
       border: 1px solid #ddd;
       border-radius: 12px;
@@ -133,7 +99,6 @@
       background-color: #fafafa;
       color: #444;
     }
-    /* Warning box */
     .warning-box {
       background-color: #fff3cd;
       border-left: 5px solid #ffecb5;
@@ -144,26 +109,15 @@
       font-weight: 600;
     }
   </style>
-
-
+</head>
+<body>
 
   <div class="container">
 
-    
-    
-<style>
-  .logo img {
-    width: 400px; /* ou 100% pour s’adapter au conteneur */
-    height: auto;
-  }
-</style>
+    <div class="logo">
+      <img alt="Logo Mission Locale" src="https://i0.wp.com/lebooster.tech/wp-content/uploads/2023/11/log-dsi-final-horizontal-1.png?fit=800,244&amp;ssl=1">
+    </div>
 
-<div class="logo">
-&nbsp; <img alt="Logo Mission Locale" src="https://i0.wp.com/lebooster.tech/wp-content/uploads/2023/11/log-dsi-final-horizontal-1.png?fit=800,244&amp;ssl=1">
-</div>
-
-
-    
     <h1>🎯 Ceci était un test : vous avez été piégé… pour mieux vous protéger !</h1>
     <p class="tip">
       🔐 Ce message faisait partie d’un <strong>exercice de sensibilisation à la cybersécurité</strong>.<br>
@@ -172,18 +126,18 @@
       Découvrez ci-dessous comment repérer ce type d’attaque et renforcer votre vigilance.
     </p>
 
-    
-    <h2>📧 Indices d’un email frauduleux</h2><div>➡️ <strong>Ce n’était pas le cas dans notre exercice, l’adresse semblait légitime pour renforcer le réalisme.</strong><br></div><div class="tip"><ul><li>🔎 <strong>Adresse e-mail suspecte :</strong> Exemple : <em>support@m1crosoft.com&nbsp;</em></li>
+    <h2>📧 Indices d’un email frauduleux</h2>
+    <div class="tip">
+      <ul>
+        <li>🔎 <strong>Adresse e-mail suspecte :</strong> Exemple : <em>support@m1crosoft.com</em></li>
         <li>❗ <strong>Demande urgente ou menaçante</strong> pour agir rapidement</li>
         <li>📁 <strong>Pièces jointes inattendues</strong> ou douteuses</li>
         <li>🖋️ <strong>Fautes d’orthographe</strong> ou de grammaire inhabituelles</li>
         <li>🌐 <strong>Lien inconnu ou raccourci</strong> (ex: bit.ly/...)</li>
-        <li><strong>Demandes d’informations sensibles</strong><br>
-          Aucun service légitime ne vous demandera vos mots de passe, numéros de carte bancaire ou codes de sécurité par e-mail.</li>
+        <li><strong>Demandes d’informations sensibles</strong> — Aucun service légitime ne vous demandera vos mots de passe, numéros de carte bancaire ou codes de sécurité par e-mail.</li>
       </ul>
     </div>
 
-    
     <h2>🔗 Comment vérifier un lien ?</h2>
     <div class="tip">
       <ul>
@@ -193,7 +147,6 @@
       </ul>
     </div>
 
-    
     <h2>✅ Que faire si vous avez un doute ?</h2>
     <div class="tip">
       <ul>
@@ -203,16 +156,9 @@
       </ul>
     </div>
 
-    
-    
-
-    
     <section>
       <h2>🔍 Analyse pédagogique : Signes d’un hameçonnage</h2>
       <p>Ci-dessous, vous trouverez une analyse des éléments frauduleux identifiés dans les captures d’écran. Cette démonstration vous aide à comprendre les signes typiques d’une tentative de phishing.</p>
-
-
-
 
       <div class="image-block">
         <img alt="Page de connexion Microsoft frauduleuse" src="of3.png">
@@ -237,8 +183,6 @@
         </div>
       </div>
 
-      
-
       <div class="warning-box">
         <p><strong>Note :</strong> Cette page est une démonstration pédagogique. Ne communiquez jamais vos identifiants à des pages web dont vous doutez, même si elles paraissent crédibles.</p>
       </div>
@@ -250,5 +194,5 @@
 
   </div>
 
-
-
+</body>
+</html>
